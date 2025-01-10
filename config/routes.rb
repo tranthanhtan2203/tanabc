@@ -7,5 +7,5 @@ Rails.application.routes.draw do
     resources :subscribers, only: [ :create ]
   end
 
-  #root "products#index"
+  root "products#index"
 end
