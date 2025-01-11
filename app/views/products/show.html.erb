@@ -1,5 +1,6 @@
 <p><%= link_to "Back", products_path %></p>
 
+<div class = "showsp">
 <section class="product">
   <%= image_tag @product.featured_image if @product.featured_image.attached? %>
 
@@ -17,3 +18,4 @@
     <% end %>
   </section>
 </section>
+</div>
